@@ -1,7 +1,7 @@
 #include <stdio>
 /**
  * main - Prints the size of various computer types
- * Retrun: 0 (Success)
+ * Retrun: Always 0 (Success)
  */
 int main(void)
 {
