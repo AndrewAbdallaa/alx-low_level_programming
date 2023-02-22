@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * _putchar
  * Return: Always 0 (Success)
  */
-
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
-	return (0);
+	return (write(1, &c, 1));
 }
